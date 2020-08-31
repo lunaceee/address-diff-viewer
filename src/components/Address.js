@@ -20,7 +20,8 @@ const Address = (props) => {
         {keys.map((k) => {
           return (
             <Fragment key={k}>
-              <dt>{k}:</dt> <dd>{address[k]}</dd>
+              <dt>{k}:</dt>
+              <dd>&nbsp;{address[k]}</dd>
             </Fragment>
           );
         })}
